@@ -1,38 +1,97 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav {
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 55px;
+  background-color: #F55A5A;
 }
 
-.App-link {
-  color: #61dafb;
+.nav--logo {
+  padding-top: 16px;
+  width: 24px;
+  height: 24px;
+  padding-right: 0.4%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#text {
+  padding-top: 19px;
+  font-family: 'Inter';
+  font-weight: 500;
+  color: #FFFFFF;
+}
+
+.trip--parent {
+  width: 90%;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: aqua; */
+  margin-left: 5%;
+  margin-top: 4%;
+}
+
+.trip--image {
+  height: 100%;
+  width: 30%;
+}
+
+.trip--texts {
+  margin-left: 3%;
+}
+
+.texts--img {
+  width: 15px;
+  height: 18px;
+}
+
+.texts--location {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 12px;
+  letter-spacing: 0.20em;
+  margin-left: 1%;
+  /* top: 119px; */
+  color: #2B283A;
+}
+
+.gmap {
+  width: 136px;
+  height: 13px;
+  margin-left: 4%;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 12px;
+  text-decoration-line: underline;
+  color: #918E9B;
+}
+
+.texts--title {
+  /* margin-top: -0.0000000001%; */
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 5px;
+
+  color: #2B283A;
+
+}
+
+.texts--date {
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 12px;
+  color: #2B283A;
+}
+
+.texts--desc {
+  width: 100%;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 150%;
+  color: #2B283A;
 }
